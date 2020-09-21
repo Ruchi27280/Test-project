@@ -7,3 +7,7 @@ def func(list,**kwargs):
         return [i.title() for i in list]    
                  
 print(func(list,reverse_str = True))
+print("ruchi")
+print("alok")
+print("akash")
+print("rakhi")
