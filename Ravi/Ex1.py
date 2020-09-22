@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-age = int(input("enter your age:"))
-if age>=14:
-    print("it is okk")
+# Given a two integer numbers return their product and  if, the product is greater than 1000, then return their sum
+
+a=int(input("Enter 1 no. = "))
+b= int (input("Enter 2 no. = "))
+if a*b<=1000:
+    print(a*b)
 else:
-    print('not eligible')
-=======
-# Given a two integer numbers return their product and  if, 
-# the product is greater than 1000, then return their sum
->>>>>>> 497325984f791c59bfee1b9aff817401e6b8b5b8
+    pritn(a+b)
